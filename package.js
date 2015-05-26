@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Query Builder for Meteor Astronomy',
-  version: '0.1.0',
+  version: '0.2.0',
   name: 'jagi:astronomy-query-builder',
   git: 'https://github.com/jagi/meteor-astronomy-query-builder.git'
 });
@@ -16,6 +16,5 @@ Package.onUse(function(api) {
   // Module.
   api.addFiles('lib/module/query_builder.js', ['client', 'server']);
   api.addFiles('lib/module/init_class.js', ['client', 'server']);
-  api.addFiles('lib/module/init_instance.js', ['client', 'server']);
   api.addFiles('lib/module/module.js', ['client', 'server']);
 });
