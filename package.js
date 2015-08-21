@@ -14,7 +14,8 @@ Package.onUse(function(api) {
   api.imply('jagi:astronomy');
 
   // Module.
-  api.addFiles('lib/module/query_builder.js', ['client', 'server']);
-  api.addFiles('lib/module/init_class.js', ['client', 'server']);
-  api.addFiles('lib/module/module.js', ['client', 'server']);
+  api.addFiles([
+    'lib/module/query_builder.js',
+    'lib/module/init_class.js'
+  ], ['client', 'server']);
 });
